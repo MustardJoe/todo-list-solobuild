@@ -3,7 +3,7 @@ const replacement = ' ';
 
 function normalize(html) {
     const replaced = html.replace(pattern, replacement);
-    const trimmed = replaced.trim()
+    const trimmed = replaced.trim();
 
     return trimmed;
 

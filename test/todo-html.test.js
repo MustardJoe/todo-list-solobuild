@@ -20,7 +20,7 @@ test('test function, incompleted task', function(assert) {
     const html = template(todo);
 
     //assert
-    assert.htmlEqual(html, expected)
+    assert.htmlEqual(html, expected);
 
 });
 
@@ -40,6 +40,6 @@ test('test function, FINISHED task', function(assert) {
     const html = template(todo);
 
     //assert
-    assert.htmlEqual(html, expected)
+    assert.htmlEqual(html, expected);
 
 });
