@@ -1,0 +1,14 @@
+body {
+    background-color: mediumspringgreen;
+    align-content: center;
+    text-align: center;
+}
+
+header {
+    background-color: mediumpurple;
+    padding: 10px;
+}
+
+footer {
+    background-color: mediumpurple;
+}
