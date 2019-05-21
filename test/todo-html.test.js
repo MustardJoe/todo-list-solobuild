@@ -1,17 +1,8 @@
+import template from '../src/todo-html.js';
+
 const test = QUnit.test;
 
 QUnit.module('todo list data to html');
-
-//WRITE TEMPLATE FUNCTION IN FILE CALLED TODO-TEST
-function template(todoItem) {
-    const html = `
-    <li>
-    <input type="checkbox" name="test" value="">${todoItem.task}
-    </li>
-`
-return html;
-
-}
 
 test('test function, incompleted task', function(assert) {
     //arange
@@ -33,16 +24,16 @@ test('test function, incompleted task', function(assert) {
 
 });
 
-test('test function, finished task', function(assert) {
+test('test function, FINISHED task', function(assert) {
     //arange
     const todo = {
-        task: 'feed fish',
-        completed: false,
+        task: 'eat sharks',
+        completed: true,
     };
   
     const expected = /*html*/`
         <li>
-            <input type="checkbox" name="test" value="">feed fish
+            <input type="checkbox" checked="true" name="test" value="">eat sharks
         </li>
     `;
     
