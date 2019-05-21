@@ -12,6 +12,10 @@ const todos = [
         completed: false,
     },
     {
+        task: 'Smash the Patriarchy',
+        completed: false,
+    },
+    {
         task: 'Buy people food',
         completed: false,
     },
