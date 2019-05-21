@@ -6,7 +6,7 @@ function template(todoItem) {
         <input type="checkbox" checked="true" name="test" value="">${todoItem.task}
         </li>
     `;
-    return html;
+        return html;
     }
     else {
 
@@ -15,7 +15,7 @@ function template(todoItem) {
         <input type="checkbox" name="test" value="">${todoItem.task}
         </li>
     `;
-    return html;
+        return html;
     }
 
 }
