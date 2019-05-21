@@ -21,12 +21,16 @@ const todos = [
     },
     {
         task: 'Get meds at Wallgreens',
-        completed: false,
+        completed: true,
     },
     {
-        task: 'Help dad with health stuff',
+        task: 'Remove static data from HTML',
+        completed: true,
+    },
+    {
+        task: 'Submit solo-build lab on canvas',
         completed: false,
-    }
+    },
     
 ];
 
